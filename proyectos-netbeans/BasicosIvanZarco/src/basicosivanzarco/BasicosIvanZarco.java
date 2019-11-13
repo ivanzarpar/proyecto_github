@@ -9,22 +9,25 @@ public class BasicosIvanZarco {
     public static void numericos() {
 
         //Estos son los tipos básicos
-        byte elMasPeque;
-        short chiquitin;
-        int entero;
-        long duplicaEntero;
-        float grande;
-        double doble;
+        byte elmenor;
+        short unpocomas;
+        int elentero;
+        long dosentero;
+        float crece;
+        double crecemas;
 
         //Ejemplos de asignación de valores a las variables de tipos básicos
-        entero = 10;
-        doble = 5.6;
+        elentero = 10;
+        crece = (float) 7.8;
+        crecemas = 235.23;
 
         //Mostrar en pantalla el contendido de las variables de tipos básicos.
-        System.err.println("Valor entero");
-        System.out.println(entero);
-        System.out.println("Valor doble");
-        System.out.println(doble);
+        System.err.println("Muestra un número entero");
+        System.out.println(elentero);
+        System.out.println("Muestra un número real");
+        System.out.println(crece);
+        System.out.println("Muestra un número real más grande que el anterior");
+        System.out.println(crecemas);
     }
     public static void main(String[] args) {
        numericos();  
